@@ -1,4 +1,4 @@
-package flappybird;
+package flappybirdproject;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -153,6 +153,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 
 			if (ticks % 2 == 0 && yMotion < 15)
 			{
+				//ymotion is to fly up
 				yMotion += 2;
 			}
 
